@@ -26,7 +26,9 @@ async def send_data(url, fields):
         try:
             payload = create_payload(fields)
             response = await send(session, url, payload)
-            logger.info(f'url: {url} size: {len(response.encode())}')
+            logger.info(
+                f'response from url: {url} size: {len(response.encode())}'
+            )
         except ClientError as e:
             logger.critical(e, exc_info=True)
 
