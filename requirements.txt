@@ -11,7 +11,7 @@ cssselect==1.1.0
 decorator==4.4.1
 fake-useragent==0.1.11
 idna==2.8
-lxml==4.4.2
+lxml==4.6.2
 multidict==4.7.4
 parse==1.14.0
 pyee==6.0.0
